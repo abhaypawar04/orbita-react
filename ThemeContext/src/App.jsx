@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react";
 
 const ThemeContext = createContext();
 
-//---------------------------------------
+//-------------------------------------------
 function App() {
   const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
@@ -44,3 +44,5 @@ export function Page() {
     </>
   );
 }
+
+// this changes are made in collabration
